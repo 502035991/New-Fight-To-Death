@@ -12,6 +12,7 @@ public class CharacterStatsManager : MonoBehaviour
     private float staminaTickTimer = 0;
     [SerializeField] float staminaRegenerationDelay = 1;
 
+    public bool isSprinting;
     public float currentStamina;
     public int maxStamina;
     public int endurance;
@@ -47,7 +48,7 @@ public class CharacterStatsManager : MonoBehaviour
     }
     public virtual void RegenerateStamina()
     {
-        if (PlayerInputManager.instance.sprintInput)
+        if (isSprinting)
             return;
 
         staminaRegenerationTimer += Time.deltaTime;

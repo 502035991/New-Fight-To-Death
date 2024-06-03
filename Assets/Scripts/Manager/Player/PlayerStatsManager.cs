@@ -4,6 +4,4 @@ using UnityEngine;
 
 public class PlayerStatsManager : CharacterStatsManager
 {
-    public bool isSprinting;
-
 }

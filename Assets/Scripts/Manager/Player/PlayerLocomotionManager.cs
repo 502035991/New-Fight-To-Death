@@ -113,6 +113,10 @@ public class PlayerLocomotionManager : CharacterLocomotionManager
         if(player.playerStatsManager.isSprinting)
         {
             var oldStamina = player.playerStatsManager.currentStamina;
+            if(oldStamina <0)
+            {
+                PlayerInputManager.instance.sprintInput = false;
+            }
             player.playerStatsManager.currentStamina -= sprintingStaminaCost * Time.deltaTime;
 
             player.playerNetworkManager.SetCurrentStaminaValue(player.playerStatsManager.currentStamina);

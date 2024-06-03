@@ -20,5 +20,5 @@ public class CharacterSaveData
 
     [Header("×´Ì¬")]
     public int vitality;//ÑªÁ¿
-    public int endurance = 100;//ÄÍÁ¦
+    public int endurance = 25;//ÄÍÁ¦
 }
