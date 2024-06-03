@@ -25,11 +25,6 @@ public class CharacterNetworkManager : NetworkBehaviour
         currentStamina = newValue;
     }
     [Command]
-    public virtual void SetMaxStaminaValue(int newValue)
-    {
-        maxStamina = newValue;
-    }
-    [Command]
     public virtual void SetNewEnduranceValue(int newValue)
     {
         endurance = newValue;

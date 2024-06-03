@@ -11,21 +11,13 @@ public class PlayerNetworkManager : CharacterNetworkManager
         player = GetComponent<PlayerManager>();
     }
     [Command]
-    public override void SetNewEnduranceValue(int newValue)
+    public override void SetNewEnduranceValue(int endurance)
     {
         if (isServer)
         {
-            endurance = newValue;
-            maxStamina = player.characterStatsManager.CalculateStaminaBasedOnEndurancelevel(newValue);
+            base.endurance = endurance;
+            maxStamina = player.characterStatsManager.CalculateStaminaBasedOnEndurancelevel(endurance);
             currentStamina = maxStamina;
-        }
-    }
-    [Command]
-    public override void SetMaxStaminaValue(int newValue)
-    {
-        if (isServer)
-        {
-            maxStamina = newValue;
         }
     }
     [Command]
@@ -42,18 +34,13 @@ public class PlayerNetworkManager : CharacterNetworkManager
         if (!isOwned)
             return;
         player.characterStatsManager.ResetStaminaRegenerationTimer(oldValue, newValue);
-        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(oldValue,newValue);
+        //PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(oldValue,newValue);
     }
     public override void OnEnduranceChanged(int oldValue, int newValue)
     {
         if (!isOwned)
             return;
         int maxStaminaValue = player.characterStatsManager.CalculateStaminaBasedOnEndurancelevel(newValue);
-/*        SetMaxStaminaValue(maxStaminaValue);
-        SetCurrentStaminaValue(maxStaminaValue);*/
-        player.playerStatsManager.maxStamina = maxStaminaValue;
-        player.playerStatsManager.currentStamina = maxStaminaValue;
-
         PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(maxStaminaValue);
     }
 }

@@ -22,16 +22,7 @@ public class CharacterStatsManager : MonoBehaviour
     }
     protected virtual void Start()
     {
-
     }
-    protected virtual void Update()
-    {
-        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0,currentStamina);
-        character.characterNetworkManager.SetCurrentStaminaValue(currentStamina);
-        character.characterNetworkManager.SetMaxStaminaValue(maxStamina);
-        character.characterNetworkManager.SetNewEnduranceValue(endurance);
-    }
-
     /// <summary>
     /// 根据体力等级计算体力
     /// </summary>
@@ -65,9 +56,10 @@ public class CharacterStatsManager : MonoBehaviour
         {
             if (currentStamina < maxStamina)
             {
+                var oldStamina = currentStamina;
                 currentStamina += staminaRegenerationAmount;
-                /*                var value = character.characterNetworkManager.currentStamina + staminaRegenerationAmount;
-                                character.characterNetworkManager.SetCurrentStaminaValue(value);*/
+                character.characterNetworkManager.SetCurrentStaminaValue(currentStamina);
+                PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(oldStamina, currentStamina);
 
                 /*                staminaTickTimer += Time.deltaTime;
                                 if (staminaTickTimer >= 0.05f)

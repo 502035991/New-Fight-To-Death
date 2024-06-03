@@ -62,19 +62,14 @@ public class PlayerManager : CharacterManager
         Vector3 myPos = new Vector3(currentCharacterData.xPosition, currentCharacterData.yPosition, currentCharacterData.zPosition);
         transform.position = myPos;
 
+        playerStatsManager.endurance = currentCharacterData.endurance;
         playerNetworkManager.SetNewEnduranceValue(currentCharacterData.endurance);
 
-        playerStatsManager.endurance = currentCharacterData.endurance;
-        //playerNetworkManager.SetNewMaxStaminaValue(currentCharacterData.endurance);
+        playerStatsManager.maxStamina = playerStatsManager.CalculateStaminaBasedOnEndurancelevel(currentCharacterData.endurance);
 
+        playerStatsManager.currentStamina = currentCharacterData.currentStamina;
 
-/*        playerNetworkManager.endurance = currentCharacterData.endurance;
-
-        playerNetworkManager.maxStamina = playerStatsManager.CalculateStaminaBasedOnEndurancelevel(currentCharacterData.endurance);
-
-        playerNetworkManager.currentStamina = currentCharacterData.currentStamina;
-
-        PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(playerNetworkManager.maxStamina);
-        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue( 0 , playerNetworkManager.currentStamina);*/
+        PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(playerStatsManager.maxStamina);
+        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0, playerStatsManager.currentStamina <= 0 ? playerStatsManager.maxStamina : playerStatsManager.currentStamina);
     }
 }

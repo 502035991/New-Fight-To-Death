@@ -108,5 +108,9 @@ public class PlayerInputManager : MonoBehaviour
         {
             player.playerLocomotionManager.HandleSprinting();
         }
+        else
+        {
+            player.playerStatsManager.isSprinting = false;
+        }
     }
 }

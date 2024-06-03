@@ -11,7 +11,6 @@ public class PlayerLocomotionManager : CharacterLocomotionManager
     [HideInInspector] public float horizontalMovement;
     [HideInInspector] public float moveAmount;
 
-    [HideInInspector] public bool isSprint;
     private Vector3 moveDirection;//移动方向
     private Vector3 targetDirection;
 
@@ -41,8 +40,6 @@ public class PlayerLocomotionManager : CharacterLocomotionManager
         verticalMovement = PlayerInputManager.instance.verticalInput;
         horizontalMovement = PlayerInputManager.instance.horizontalInput;
         moveAmount = PlayerInputManager.instance.moveAmount;
-
-        isSprint = PlayerInputManager.instance.sprintInput;
     }
     private void HandleGroundedMovement()
     {
@@ -53,10 +50,11 @@ public class PlayerLocomotionManager : CharacterLocomotionManager
         moveDirection.Normalize();
         moveDirection.y = 0;
 
-        if(isSprint)
+        bool isSprinting;
+        if(player.playerStatsManager.isSprinting)
         {
             player.characterController.Move(moveDirection * sprintSpeed * 1.3f * Time.deltaTime);
-            player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount, true);
+            isSprinting = true;
         }
         else
         {
@@ -68,8 +66,9 @@ public class PlayerLocomotionManager : CharacterLocomotionManager
             {
                 player.characterController.Move(moveDirection * walkingSpeed * Time.deltaTime);
             }
-            player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount, false);
-        }     
+            isSprinting = false;
+        }
+        player.playerAnimatorManager.UpdateAnimatorMovementParameters(0, moveAmount, isSprinting);
     }
     private void HandleRotation()
     {
@@ -92,6 +91,33 @@ public class PlayerLocomotionManager : CharacterLocomotionManager
     }
     public void HandleSprinting()
     {
-        player.playerStatsManager.currentStamina -=sprintingStaminaCost * Time.deltaTime;
+        if(player.isPerformingAction)
+        {
+            player.playerStatsManager.isSprinting = false;
+        }
+        if(player.playerStatsManager.currentStamina <=0)
+        {
+            player.playerStatsManager.isSprinting = false;
+        }
+        if(moveAmount >= 0.5)
+        {
+            //避免原地冲刺
+            player.playerStatsManager.isSprinting = true;
+        }
+        else
+        {
+            player.playerStatsManager.isSprinting = false;
+        }
+
+
+        if(player.playerStatsManager.isSprinting)
+        {
+            var oldStamina = player.playerStatsManager.currentStamina;
+            player.playerStatsManager.currentStamina -= sprintingStaminaCost * Time.deltaTime;
+
+            player.playerNetworkManager.SetCurrentStaminaValue(player.playerStatsManager.currentStamina);
+            PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(oldStamina, player.playerStatsManager.currentStamina);
+        }
+
     }
 }
