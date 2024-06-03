@@ -1,0 +1,389 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-06-01-1114",
+    "AssetList": [
+        {
+            "Address": "GameScene",
+            "AssetPath": "Assets/Scenes/GameScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "MainScene",
+            "AssetPath": "Assets/Scenes/MainScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Anim Avatar",
+            "AssetPath": "Assets/Art/Animation/Anim Avatar.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Idle",
+            "AssetPath": "Assets/Art/Animation/Idle.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "WalkForward",
+            "AssetPath": "Assets/Art/Animation/移动/走/WalkForward.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "向右走",
+            "AssetPath": "Assets/Art/Animation/移动/走/向右走.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "向右走_快",
+            "AssetPath": "Assets/Art/Animation/移动/走/向右走_快.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "向后走_快",
+            "AssetPath": "Assets/Art/Animation/移动/走/向后走_快.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "向后退",
+            "AssetPath": "Assets/Art/Animation/移动/走/向后退.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "向左走",
+            "AssetPath": "Assets/Art/Animation/移动/走/向左走.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "向左走_快",
+            "AssetPath": "Assets/Art/Animation/移动/走/向左走_快.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Running",
+            "AssetPath": "Assets/Art/Animation/移动/跑/Running.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Running_Slow",
+            "AssetPath": "Assets/Art/Animation/移动/跑/Running_Slow.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "跑_右边停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_右边停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "跑_左边停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_左边停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "跑_快跑停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_快跑停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "跑_慢跑停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_慢跑停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Paladin WProp J Nordstrom",
+            "AssetPath": "Assets/Model/Paladin WProp J Nordstrom.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "Paladin_diffuse",
+            "AssetPath": "Assets/Model/Texture/Paladin_diffuse.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "Paladin_specular",
+            "AssetPath": "Assets/Model/Texture/Paladin_specular.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "Netcode Manager",
+            "AssetPath": "Assets/Prefab/Manager/Netcode Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "Player Input Manager",
+            "AssetPath": "Assets/Prefab/Manager/Player Input Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "World Save Game Manager",
+            "AssetPath": "Assets/Prefab/Manager/World Save Game Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "Player",
+            "AssetPath": "Assets/Prefab/Player.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "Save Slot",
+            "AssetPath": "Assets/Prefab/Save Slot.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_scenes.bundle",
+            "UnityCRC": 549676858,
+            "FileHash": "81f2b870cca91cc1108c1b0eace72800",
+            "FileCRC": "3d780c55",
+            "FileSize": 231087,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                6,
+                14,
+                12,
+                13,
+                8,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation.bundle",
+            "UnityCRC": 966549027,
+            "FileHash": "c12c01ced7f8b4e96d7297c26d37e768",
+            "FileCRC": "8231f0d5",
+            "FileSize": 99061,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_animation_移动_走.bundle",
+            "UnityCRC": 846923307,
+            "FileHash": "4e045d9ee3e7d970efe40ad5422058f3",
+            "FileCRC": "c9bc027c",
+            "FileSize": 391248,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_移动_跑.bundle",
+            "UnityCRC": 3982392184,
+            "FileHash": "89136438dd860aced92a83ea2aa21992",
+            "FileCRC": "479f775d",
+            "FileSize": 281031,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1
+            ]
+        },
+        {
+            "BundleName": "assets_model.bundle",
+            "UnityCRC": 812885385,
+            "FileHash": "61b38fb8551cf078d84dc22e5c5ac797",
+            "FileCRC": "c38c18a5",
+            "FileSize": 537541,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                5,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_model_texture.bundle",
+            "UnityCRC": 2495266657,
+            "FileHash": "fbef132b12ccd397aeb4a950145f411e",
+            "FileCRC": "27939aef",
+            "FileSize": 2497110,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_prefab_manager.bundle",
+            "UnityCRC": 60686590,
+            "FileHash": "a04276f09af43dbf92c53fdb7ef6fbd0",
+            "FileCRC": "cfb11297",
+            "FileSize": 5095,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                14,
+                12,
+                13,
+                9
+            ]
+        },
+        {
+            "BundleName": "assets_prefab.bundle",
+            "UnityCRC": 1421145103,
+            "FileHash": "a15b229aa92d19c2cf20f08f400f79f1",
+            "FileCRC": "15790fd0",
+            "FileSize": 18609,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                14,
+                12,
+                13,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "UnityCRC": 1122423631,
+            "FileHash": "c1b7e2f819cc052f2c2eb5c242af02be",
+            "FileCRC": "f455db2e",
+            "FileSize": 3022,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                9
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 36498527,
+            "FileHash": "54c4489cc46a2bb3d98f4434a4fa4abf",
+            "FileCRC": "af8f26e4",
+            "FileSize": 56734,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_3rd_mirror_editor_icon.bundle",
+            "UnityCRC": 3679769552,
+            "FileHash": "c4afa2dada043d3e96695db8f033fabc",
+            "FileCRC": "cc6f5a17",
+            "FileSize": 1166,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor_resources_gizmos.bundle",
+            "UnityCRC": 689330812,
+            "FileHash": "4acd0ea439bf3a892d8cb930364b20fb",
+            "FileCRC": "24fdadf3",
+            "FileSize": 4048,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_3rd_textmesh_pro_resources_fonts_&_materials.bundle",
+            "UnityCRC": 3987068430,
+            "FileHash": "6d6ed895e3bb38b2d502a0bb0e557186",
+            "FileCRC": "9042bf31",
+            "FileSize": 373481,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                14,
+                9
+            ]
+        },
+        {
+            "BundleName": "share_assets_animaton.bundle",
+            "UnityCRC": 2078559532,
+            "FileHash": "42b5fa216a375da077ff2722033f7fc3",
+            "FileCRC": "442c02c5",
+            "FileSize": 5171,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rd_textmesh_pro_fonts.bundle",
+            "UnityCRC": 2406680048,
+            "FileHash": "1974e054b73fe877905618ef82076ef6",
+            "FileCRC": "c96e3b9f",
+            "FileSize": 227277,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

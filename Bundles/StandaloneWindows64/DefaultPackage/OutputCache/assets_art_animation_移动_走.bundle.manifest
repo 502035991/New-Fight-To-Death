@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 846923307
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 705548ed64b1ae0c701195d1edbcfc67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00a543950720c505626c77e744ca79fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Art/Animation/\u79FB\u52A8/\u8D70/\u5411\u540E\u8D70_\u5FEB.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8D70/WalkForward.anim"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8D70/\u5411\u540E\u9000.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8D70/\u5411\u53F3\u8D70_\u5FEB.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8D70/\u5411\u5DE6\u8D70_\u5FEB.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8D70/\u5411\u5DE6\u8D70.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8D70/\u5411\u53F3\u8D70.fbx"
+Dependencies:
+- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation.bundle

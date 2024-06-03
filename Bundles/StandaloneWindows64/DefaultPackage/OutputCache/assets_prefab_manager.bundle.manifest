@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 60686590
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f6e334553b7b8967142ebd12cafcbe90
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 35b7957a080306a96b07e88f57e5957d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8aab4c8111b7c411b9b92cf3dbc5bd4e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c527c15a080d4a2499777008f3b63945, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: CharacterSaveData
+- AssemblyName: Mirror
+  ClassName: Mirror.SnapshotInterpolationSettings
+Assets:
+- Assets/Prefab/Manager/Netcode Manager.prefab
+- Assets/Prefab/Manager/World Save Game Manager.prefab
+- Assets/Prefab/Manager/Player Input Manager.prefab
+Dependencies:
+- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_prefab.bundle

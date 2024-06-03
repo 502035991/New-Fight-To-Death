@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3982392184
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ef5e78fa1e8900fe41e7d7650e81c598
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00a543950720c505626c77e744ca79fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Art/Animation/\u79FB\u52A8/\u8DD1/Running_Slow.anim"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8DD1/\u8DD1_\u5FEB\u8DD1\u505C.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8DD1/\u8DD1_\u6162\u8DD1\u505C.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8DD1/Running.anim"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8DD1/\u8DD1_\u5DE6\u8FB9\u505C.fbx"
+- "Assets/Art/Animation/\u79FB\u52A8/\u8DD1/\u8DD1_\u53F3\u8FB9\u505C.fbx"
+Dependencies:
+- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation.bundle

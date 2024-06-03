@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3679769552
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d07ce182b53763798184b635305d4076
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/3rd/Mirror/Editor/Icon/MirrorIcon.png
+Dependencies: []

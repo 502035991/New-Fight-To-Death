@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 966549027
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2d78bc948d682a9e4411ac05633a18d0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b4b38d9a687e66744e8d73715daebbd9
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Animation/Idle.anim
+- Assets/Art/Animation/Anim Avatar.asset
+Dependencies: []

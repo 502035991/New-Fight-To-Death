@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2495266657
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: caafe5e9d6bd6e2caf2bbfe178a04e92
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Model/Texture/Paladin_specular.png
+- Assets/Model/Texture/Paladin_diffuse.png
+Dependencies: []
