@@ -9,13 +9,25 @@ public class CharacterManager : NetworkBehaviour
 
     [HideInInspector] public CharacterNetworkManager characterNetworkManager;
     [HideInInspector] public CharacterStatsManager characterStatsManager;
+    [HideInInspector] public CharacterEffectManager characterEffectManager;
 
+    public bool isDead;
     [Header("变量")]
     public bool isPerformingAction = false;
     public bool isGrounded = false;
     public bool applyRootMotion = false;
     public bool canRotate = true;
     public bool canMove = true;
+    public bool isSprinting = false;
+    public bool isJumping = false;
+
+    [Header("当前状态")]
+    public float currentStamina;
+    public int maxStamina;
+    public int endurance;
+    public float currentHealth;
+    public int maxHealth;
+    public int vitality;
 
     protected virtual void Awake()
     {
@@ -26,6 +38,7 @@ public class CharacterManager : NetworkBehaviour
 
         characterNetworkManager = GetComponent<CharacterNetworkManager>();
         characterStatsManager = GetComponent<CharacterStatsManager>();
+        characterEffectManager = GetComponent<CharacterEffectManager>();
     }
     protected virtual void Update()
     {

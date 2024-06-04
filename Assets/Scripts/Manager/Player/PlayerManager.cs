@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class PlayerManager : CharacterManager
 {
@@ -62,14 +63,22 @@ public class PlayerManager : CharacterManager
         Vector3 myPos = new Vector3(currentCharacterData.xPosition, currentCharacterData.yPosition, currentCharacterData.zPosition);
         transform.position = myPos;
 
-        playerStatsManager.endurance = currentCharacterData.endurance;
-        playerNetworkManager.SetNewEnduranceValue(currentCharacterData.endurance);
+        endurance = currentCharacterData.endurance;
+        vitality = currentCharacterData.vitality;
 
-        playerStatsManager.maxStamina = playerStatsManager.CalculateStaminaBasedOnEndurancelevel(currentCharacterData.endurance);
+        playerNetworkManager.SetNewEnduranceValue(endurance);
+        playerNetworkManager.SetNewVitalityValue(vitality);
 
-        playerStatsManager.currentStamina = currentCharacterData.currentStamina;
+        maxStamina = playerStatsManager.CalculateStaminaBasedOnEndurancelevel(endurance);
+        maxHealth = playerStatsManager.CalculateHealthBasedOnVitalityLevel(vitality);
 
-        PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(playerStatsManager.maxStamina);
-        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0, playerStatsManager.currentStamina <= 0 ? playerStatsManager.maxStamina : playerStatsManager.currentStamina);
+        currentStamina = currentCharacterData.currentStamina;
+        currentHealth = currentCharacterData.currentHealth;
+
+        PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(maxStamina);
+        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0, currentStamina <= 0 ? maxStamina : currentStamina);
+
+        PlayerUIManager.instance.PlayerUIHudManager.SetMaxHealthValue(maxHealth);
+        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0, currentHealth <= 0 ? maxHealth : currentHealth);
     }
 }

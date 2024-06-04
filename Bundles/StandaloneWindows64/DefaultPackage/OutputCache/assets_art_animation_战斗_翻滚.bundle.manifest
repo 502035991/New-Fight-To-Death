@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3568823488
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3963f881a15e46c1cd230d6e570cc0e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00a543950720c505626c77e744ca79fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u53F3\u7FFB\u6EDA.fbx"
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u524D\u7FFB\u6EDA2.fbx"
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u540E\u7FFB\u6EDA (3).fbx"
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u524D\u7FFB\u6EDA.fbx"
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u540E\u7FFB\u6EDA (2).fbx"
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u540E\u7FFB\u6EDA.fbx"
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u5DE6\u7FFB\u6EDA.fbx"
+- "Assets/Art/Animation/\u6218\u6597/\u7FFB\u6EDA/\u5411\u524D\u7FFB\u6EDA3.fbx"
+Dependencies:
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation.bundle

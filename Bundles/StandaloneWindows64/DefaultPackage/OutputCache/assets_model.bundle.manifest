@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 812885385
+CRC: 2778442752
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8338e160549a589b2d453d8e699c73f2
+    Hash: 73f262c16fde4abc47fa555cd69c71ff
   TypeTreeHash:
     serializedVersion: 2
     Hash: 112965f786cb50381fc4866651b5ac2f
@@ -29,7 +29,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Model/Paladin WProp J Nordstrom.fbx
+- Assets/Model/Player Model.fbx
 Dependencies:
-- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_model_texture.bundle
-- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_model_texture.bundle
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle

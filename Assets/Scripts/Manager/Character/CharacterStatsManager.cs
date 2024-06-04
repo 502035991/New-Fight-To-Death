@@ -12,10 +12,6 @@ public class CharacterStatsManager : MonoBehaviour
     private float staminaTickTimer = 0;
     [SerializeField] float staminaRegenerationDelay = 1;
 
-    public bool isSprinting;
-    public float currentStamina;
-    public int maxStamina;
-    public int endurance;
 
     protected virtual void Awake()
     {
@@ -48,26 +44,24 @@ public class CharacterStatsManager : MonoBehaviour
     }
     public virtual void RegenerateStamina()
     {
-        if (isSprinting)
+        if (character.isSprinting)
             return;
 
         staminaRegenerationTimer += Time.deltaTime;
         //停止降低耐力后 staminaRegenerationDelay 后回复
         if (staminaRegenerationTimer >= staminaRegenerationDelay)
         {
-            if (currentStamina < maxStamina)
+            if (character.currentStamina < character.maxStamina)
             {
-                var oldStamina = currentStamina;
-                currentStamina += staminaRegenerationAmount;
-                character.characterNetworkManager.SetCurrentStaminaValue(currentStamina);
-                PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(oldStamina, currentStamina);
+                //PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(oldStamina, character.currentStamina);
 
-                /*                staminaTickTimer += Time.deltaTime;
-                                if (staminaTickTimer >= 0.05f)
-                                {
-                                    staminaTickTimer = 0;
-                                    character.characterNetworkManager.currentStamina += staminaRegenerationAmount;
-                                }*/
+                staminaTickTimer += Time.deltaTime;
+                if (staminaTickTimer >= 0.02f)
+                {
+                    staminaTickTimer = 0;
+                    character.currentStamina += staminaRegenerationAmount;
+                    character.characterNetworkManager.SetCurrentStaminaValue(character.currentStamina);
+                }
             }
         }
     }

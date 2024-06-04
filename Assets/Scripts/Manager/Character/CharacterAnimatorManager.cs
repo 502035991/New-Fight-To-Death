@@ -17,7 +17,10 @@ public class CharacterAnimatorManager : MonoBehaviour
         horizontal = Animator.StringToHash("Horizontal");
         vertical = Animator.StringToHash("Vertical");
     }
-
+    protected virtual void Update()
+    {
+        character.anim.SetBool("isGrounded", character.isGrounded);
+    }
     public void UpdateAnimatorMovementParameters(float horizontalValue, float verticalValue, bool isSprinting)
     {
         float horizontalAmount = horizontalValue;

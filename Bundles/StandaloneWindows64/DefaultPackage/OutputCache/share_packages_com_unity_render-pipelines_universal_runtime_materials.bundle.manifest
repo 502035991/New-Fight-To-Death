@@ -17,4 +17,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
 Dependencies:
-- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle

@@ -1,34 +1,77 @@
 ManifestFileVersion: 0
-CRC: 60686590
+CRC: 4216068523
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f6e334553b7b8967142ebd12cafcbe90
+    Hash: 7d5775e0808768880e2ec112d68becac
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 35b7957a080306a96b07e88f57e5957d
+    Hash: 563801f422ca0148a913d73f09d8d495
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
   Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 8aab4c8111b7c411b9b92cf3dbc5bd4e, type: 3}
+  Script: {fileID: 11500000, guid: e448556098324f248b5800ed231033fa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 85bc43143b875064c989adebb97a267f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c527c15a080d4a2499777008f3b63945, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c803287359dd2054d8f0ef54236e1b4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8aab4c8111b7c411b9b92cf3dbc5bd4e, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
   ClassName: CharacterSaveData
 - AssemblyName: Mirror
   ClassName: Mirror.SnapshotInterpolationSettings
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
 Assets:
 - Assets/Prefab/Manager/Netcode Manager.prefab
+- Assets/Prefab/Manager/Player UI Manager.prefab
 - Assets/Prefab/Manager/World Save Game Manager.prefab
 - Assets/Prefab/Manager/Player Input Manager.prefab
 Dependencies:
-- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_prefab.bundle
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_prefab.bundle

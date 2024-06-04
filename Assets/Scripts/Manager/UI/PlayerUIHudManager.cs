@@ -18,7 +18,7 @@ public class PlayerUIHudManager : MonoBehaviour
         LayoutRebuilder.ForceRebuildLayoutImmediate(layoutGroup.GetComponent<RectTransform>());
     }
     #region ÑªÁ¿
-    public void SetNewHealthValue(int oldValue, int newValue)
+    public void SetNewHealthValue(float oldValue, float newValue)
     {
         healthBar.SetStat(newValue);
     }

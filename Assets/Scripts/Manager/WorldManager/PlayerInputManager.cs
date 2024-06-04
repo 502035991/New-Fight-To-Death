@@ -23,6 +23,9 @@ public class PlayerInputManager : MonoBehaviour
 
     [Header("Player Action Input")]
     public bool sprintInput;
+    public bool jumpInput;
+    public bool dodgeInput;
+    public bool RB_Input;
 
     private void Awake()
     {
@@ -67,16 +70,27 @@ public class PlayerInputManager : MonoBehaviour
             playerControls.PlayerMovement.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
             playerControls.PlayerCamera.CameraControls.performed += i => cameraInput = i.ReadValue<Vector2>();
 
+            playerControls.PlayerActions.Jump.performed += i => jumpInput = true;
+            playerControls.PlayerActions.Dodge.performed += i => dodgeInput =true;
+
             playerControls.PlayerActions.Sprint.performed += i => sprintInput = true;
             playerControls.PlayerActions.Sprint.canceled += i => sprintInput = false;
         }
         playerControls.Enable();
     }
+
+    private void Dodge_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        throw new System.NotImplementedException();
+    }
+
     private void Update()
     {
         HandleMovmentInput();
         HandleCameraMovementInput();
         HandleSprintInput();
+        HandleJumpInput();
+        HandleDodgeInput();
     }
     //ÄÃµ½ÒÆ¶¯Öµ
     private void HandleMovmentInput()
@@ -110,7 +124,23 @@ public class PlayerInputManager : MonoBehaviour
         }
         else
         {
-            player.playerStatsManager.isSprinting = false;
+            player.isSprinting = false;
+        }
+    }
+    private void HandleJumpInput()
+    {
+        if (jumpInput)
+        {
+            jumpInput = false;
+            player.playerLocomotionManager.AttemptToPerformJump();
+        }
+    }
+    private void HandleDodgeInput()
+    {
+        if (dodgeInput)
+        {
+            dodgeInput = false;
+            player.playerLocomotionManager.AttemptToPerformDodge();
         }
     }
 }

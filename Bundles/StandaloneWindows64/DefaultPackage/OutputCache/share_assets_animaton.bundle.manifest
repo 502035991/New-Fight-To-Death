@@ -1,22 +1,27 @@
 ManifestFileVersion: 0
-CRC: 2078559532
+CRC: 2564986488
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a19562a5ac52d32684e512bf4204cf0b
+    Hash: aa20c65acbddcb82f12ed73ec2313c2b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e8df1f9f82371e82de919a94edcc7dd6
+    Hash: 7b52c93be526a8dfe0711696f2386f71
 HashAppended: 0
 ClassTypes:
 - Class: 74
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73e5cf98fbde4bc40ae55dc655aa914c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Animaton/Player.controller
 Dependencies:
-- C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation.bundle
-- "C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_\u79FB\u52A8_\u8D70.bundle"
-- "C:/Users/50203/Desktop/New Fight To Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_\u79FB\u52A8_\u8DD1.bundle"
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation.bundle
+- "C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_\u79FB\u52A8_\u8D70.bundle"
+- "C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_\u79FB\u52A8_\u8DD1.bundle"
+- "C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_art_animation_\u8DF3\u8DC3.bundle"

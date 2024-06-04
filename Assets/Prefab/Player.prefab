@@ -699,7 +699,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 250880a3300ce774a84205ccbcaf139e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -784,6 +784,11 @@ MonoBehaviour:
   applyRootMotion: 0
   canRotate: 1
   canMove: 1
+  isSprinting: 0
+  isJumping: 0
+  currentStamina: 0
+  maxStamina: 0
+  endurance: 0
   playerLocomotionManager: {fileID: 0}
   playerAnimatorManager: {fileID: 0}
   playerStatsManager: {fileID: 0}
@@ -800,15 +805,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9429d8f276dc4c4cb311ccb397f1971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  groundCheckSphereRadius: 0.2
+  yVelocity: {x: 0, y: 0, z: 0}
+  gravityForce: -5.55
+  groundedVelocityY: -20
+  fallStartVelcityY: -10
   verticalMovement: 0
   horizontalMovement: 0
   moveAmount: 0
-  isSprint: 0
   walkingSpeed: 2
   runningSpeed: 5
   sprintSpeed: 6.5
   rotationSpeed: 15
-  sprintingStaminaCost: 120
+  sprintingStaminaCost: 70
+  jumpStaminaCost: 50
+  jumpHeight: 1
+  jumpForwardSpeed: 5
+  freeFallSpeed: 2
+  rollDirection: {x: 0, y: 0, z: 0}
+  dodgeStaminaCost: 70
 --- !u!114 &6802376399373141976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -835,9 +853,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   staminaRegenerationAmount: 10
   staminaRegenerationDelay: 1
-  currentStamina: 0
-  maxStamina: 0
-  endurance: 0
 --- !u!114 &-5065757462849318526
 MonoBehaviour:
   m_ObjectHideFlags: 0
