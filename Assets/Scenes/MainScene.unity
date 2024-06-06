@@ -3124,6 +3124,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5553317589260786833, guid: 9d87b7e3f86355e41bfe32ffb4a91daf,
         type: 3}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 3805790572668612010, guid: 397dc6ec9af1f1b4090070cdd3a30605,
+        type: 3}
+    - target: {fileID: 5553317589260786833, guid: 9d87b7e3f86355e41bfe32ffb4a91daf,
+        type: 3}
       propertyPath: headlessStartMode
       value: 1
       objectReference: {fileID: 0}

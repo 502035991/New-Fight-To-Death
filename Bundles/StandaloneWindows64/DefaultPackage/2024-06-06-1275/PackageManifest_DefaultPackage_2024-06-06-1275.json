@@ -1,0 +1,843 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-06-06-1275",
+    "AssetList": [
+        {
+            "Address": "GameScene",
+            "AssetPath": "Assets/Scenes/GameScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "MainScene",
+            "AssetPath": "Assets/Scenes/MainScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Anim Avatar",
+            "AssetPath": "Assets/Art/Animation/Anim Avatar.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Idle",
+            "AssetPath": "Assets/Art/Animation/Idle.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Jump_Backward",
+            "AssetPath": "Assets/Art/Animation/战斗/Jump_Backward.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "弹刀",
+            "AssetPath": "Assets/Art/Animation/战斗/弹刀.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "弹盾",
+            "AssetPath": "Assets/Art/Animation/战斗/弹盾.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "死亡",
+            "AssetPath": "Assets/Art/Animation/战斗/死亡.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "盾牌击退_弹开",
+            "AssetPath": "Assets/Art/Animation/战斗/盾牌击退_弹开.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "防御击退_轻",
+            "AssetPath": "Assets/Art/Animation/战斗/防御击退_轻.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "防御击退_重",
+            "AssetPath": "Assets/Art/Animation/战斗/防御击退_重.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "防御击退_非常重",
+            "AssetPath": "Assets/Art/Animation/战斗/防御击退_非常重.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "剑_上挑 (2)",
+            "AssetPath": "Assets/Art/Animation/战斗/攻击/剑_上挑 (2).fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "剑_上挑",
+            "AssetPath": "Assets/Art/Animation/战斗/攻击/剑_上挑.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "剑_前刺",
+            "AssetPath": "Assets/Art/Animation/战斗/攻击/剑_前刺.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "剑_横扫",
+            "AssetPath": "Assets/Art/Animation/战斗/攻击/剑_横扫.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Roll_Short",
+            "AssetPath": "Assets/Art/Animation/战斗/翻滚/Roll_Short.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "WalkForward",
+            "AssetPath": "Assets/Art/Animation/移动/走/WalkForward.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "向右走",
+            "AssetPath": "Assets/Art/Animation/移动/走/向右走.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "向右走_快",
+            "AssetPath": "Assets/Art/Animation/移动/走/向右走_快.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "向后走_快",
+            "AssetPath": "Assets/Art/Animation/移动/走/向后走_快.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "向后退",
+            "AssetPath": "Assets/Art/Animation/移动/走/向后退.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "向左走",
+            "AssetPath": "Assets/Art/Animation/移动/走/向左走.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "向左走_快",
+            "AssetPath": "Assets/Art/Animation/移动/走/向左走_快.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "Running",
+            "AssetPath": "Assets/Art/Animation/移动/跑/Running.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "Running_Slow",
+            "AssetPath": "Assets/Art/Animation/移动/跑/Running_Slow.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "跑_右边停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_右边停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "跑_左边停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_左边停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "跑_快跑停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_快跑停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "跑_慢跑停",
+            "AssetPath": "Assets/Art/Animation/移动/跑/跑_慢跑停.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "Land_Light",
+            "AssetPath": "Assets/Art/Animation/跳跃/Land_Light.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "Main_Jump_Fall",
+            "AssetPath": "Assets/Art/Animation/跳跃/Main_Jump_Fall.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "Main_Jump_Idle",
+            "AssetPath": "Assets/Art/Animation/跳跃/Main_Jump_Idle.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "Main_Jump_Start",
+            "AssetPath": "Assets/Art/Animation/跳跃/Main_Jump_Start.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "Main_Jump_Up",
+            "AssetPath": "Assets/Art/Animation/跳跃/Main_Jump_Up.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "落地",
+            "AssetPath": "Assets/Art/Animation/跳跃/落地.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "落地_躺",
+            "AssetPath": "Assets/Art/Animation/跳跃/落地_躺.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "落地_轻2",
+            "AssetPath": "Assets/Art/Animation/跳跃/落地_轻2.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "落地_重",
+            "AssetPath": "Assets/Art/Animation/跳跃/落地_重.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "PP_Ground",
+            "AssetPath": "Assets/Model/Free_Swords/Materials/PP_Ground.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "PP_Standard_Material",
+            "AssetPath": "Assets/Model/Free_Swords/Materials/PP_Standard_Material.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "PP_Sword_0018_Model",
+            "AssetPath": "Assets/Model/Free_Swords/Meshes/PP_Sword_0018_Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "PP_Sword_0036_Model",
+            "AssetPath": "Assets/Model/Free_Swords/Meshes/PP_Sword_0036_Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "PP_Sword_0080_Model",
+            "AssetPath": "Assets/Model/Free_Swords/Meshes/PP_Sword_0080_Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "PP_Sword_0177_Model",
+            "AssetPath": "Assets/Model/Free_Swords/Meshes/PP_Sword_0177_Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "PP_Sword_0222_Model",
+            "AssetPath": "Assets/Model/Free_Swords/Meshes/PP_Sword_0222_Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "PP_Sword_0363_Model",
+            "AssetPath": "Assets/Model/Free_Swords/Meshes/PP_Sword_0363_Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "PP_Sword_1039_Model",
+            "AssetPath": "Assets/Model/Free_Swords/Meshes/PP_Sword_1039_Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "PP_Color_Palette",
+            "AssetPath": "Assets/Model/Free_Swords/Textures/PP_Color_Palette.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "Paladin J Nordstrom",
+            "AssetPath": "Assets/Model/Paladin J Nordstrom.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11
+        },
+        {
+            "Address": "Player Model",
+            "AssetPath": "Assets/Model/Player Model.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11
+        },
+        {
+            "Address": "Paladin_diffuse",
+            "AssetPath": "Assets/Model/Texture/Paladin_diffuse.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "Paladin_specular",
+            "AssetPath": "Assets/Model/Texture/Paladin_specular.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "Netcode Manager",
+            "AssetPath": "Assets/Prefab/Manager/Netcode Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "Player Input Manager",
+            "AssetPath": "Assets/Prefab/Manager/Player Input Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "Player UI Manager",
+            "AssetPath": "Assets/Prefab/Manager/Player UI Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "World Character Effect Manager",
+            "AssetPath": "Assets/Prefab/Manager/World Character Effect Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "World Save Game Manager",
+            "AssetPath": "Assets/Prefab/Manager/World Save Game Manager.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "Player",
+            "AssetPath": "Assets/Prefab/Player.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "Save Slot",
+            "AssetPath": "Assets/Prefab/Save Slot.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "PP_Sword_0018",
+            "AssetPath": "Assets/Prefab/Weapon/PP_Sword_0018.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "PP_Sword_0036",
+            "AssetPath": "Assets/Prefab/Weapon/PP_Sword_0036.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "PP_Sword_0080",
+            "AssetPath": "Assets/Prefab/Weapon/PP_Sword_0080.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "PP_Sword_0177",
+            "AssetPath": "Assets/Prefab/Weapon/PP_Sword_0177.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "PP_Sword_0222",
+            "AssetPath": "Assets/Prefab/Weapon/PP_Sword_0222.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "PP_Sword_0363",
+            "AssetPath": "Assets/Prefab/Weapon/PP_Sword_0363.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "PP_Sword_1039",
+            "AssetPath": "Assets/Prefab/Weapon/PP_Sword_1039.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "Human",
+            "AssetPath": "Assets/Data/Animaton Controller/Human.controller",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16
+        },
+        {
+            "Address": "New Take Damage Effect",
+            "AssetPath": "Assets/Data/Effects/New Take Damage Effect.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 17
+        },
+        {
+            "Address": "Straight Sword",
+            "AssetPath": "Assets/Data/Items/Weapons/Straight Sword.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 18
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_scenes.bundle",
+            "UnityCRC": 4279328134,
+            "FileHash": "eee0c7940a9e1a507c6a519357ab2a22",
+            "FileCRC": "bbf245ef",
+            "FileSize": 235239,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7,
+                16,
+                17,
+                11,
+                12,
+                14,
+                13,
+                24,
+                23,
+                20,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation.bundle",
+            "UnityCRC": 966549027,
+            "FileHash": "c12c01ced7f8b4e96d7297c26d37e768",
+            "FileCRC": "8231f0d5",
+            "FileSize": 99061,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_animation_战斗.bundle",
+            "UnityCRC": 3405743247,
+            "FileHash": "7ae5dcd3635c0417d92407e155bf02c9",
+            "FileCRC": "b2bccc8b",
+            "FileSize": 664534,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_战斗_攻击.bundle",
+            "UnityCRC": 3434545177,
+            "FileHash": "e742db7bcfd4983259720ce362a69c4a",
+            "FileCRC": "2344395d",
+            "FileSize": 643662,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_art_animation_战斗_翻滚.bundle",
+            "UnityCRC": 3844062329,
+            "FileHash": "d688df8049a13f4b50f340acabdbb718",
+            "FileCRC": "903d9d81",
+            "FileSize": 85158,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                11,
+                12,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_移动_走.bundle",
+            "UnityCRC": 846923307,
+            "FileHash": "4e045d9ee3e7d970efe40ad5422058f3",
+            "FileCRC": "c9bc027c",
+            "FileSize": 391248,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_移动_跑.bundle",
+            "UnityCRC": 3982392184,
+            "FileHash": "89136438dd860aced92a83ea2aa21992",
+            "FileCRC": "479f775d",
+            "FileSize": 281031,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1
+            ]
+        },
+        {
+            "BundleName": "assets_art_animation_跳跃.bundle",
+            "UnityCRC": 1398730591,
+            "FileHash": "1cf5403ffb0d969e274676ea09bb7380",
+            "FileCRC": "b889f5fe",
+            "FileSize": 213075,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                11,
+                12,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_model_free_swords_materials.bundle",
+            "UnityCRC": 881375567,
+            "FileHash": "5553944fdb2cf6a64c3e1599085dff3d",
+            "FileCRC": "855c63bb",
+            "FileSize": 3099,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                10,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_model_free_swords_meshes.bundle",
+            "UnityCRC": 841000337,
+            "FileHash": "fc19f5c8f0d521d8bc63859d676551bf",
+            "FileCRC": "cb9451a6",
+            "FileSize": 463478,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                20,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_model_free_swords_textures.bundle",
+            "UnityCRC": 1663962114,
+            "FileHash": "0e612ebca9920e9fb7c0b19e3bbd98f8",
+            "FileCRC": "8dc70f5b",
+            "FileSize": 9899,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_model.bundle",
+            "UnityCRC": 3882684762,
+            "FileHash": "042c1a67c11cce052534aed91a312c12",
+            "FileCRC": "a4268471",
+            "FileSize": 1041364,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                12,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_model_texture.bundle",
+            "UnityCRC": 2495266657,
+            "FileHash": "fbef132b12ccd397aeb4a950145f411e",
+            "FileCRC": "27939aef",
+            "FileSize": 2497110,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_prefab_manager.bundle",
+            "UnityCRC": 431809743,
+            "FileHash": "8c6c3935d3c1c683595a38ac56386fb5",
+            "FileCRC": "247191ea",
+            "FileSize": 18054,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7,
+                16,
+                11,
+                12,
+                14,
+                24,
+                23,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_prefab.bundle",
+            "UnityCRC": 1709254379,
+            "FileHash": "716ab6fc812af77e42d13cdf6a13ebbf",
+            "FileCRC": "4e77779a",
+            "FileSize": 19039,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7,
+                16,
+                11,
+                12,
+                24,
+                23,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_prefab_weapon.bundle",
+            "UnityCRC": 2065392031,
+            "FileHash": "8a098f8ec2a4214bf471d10c16865a7e",
+            "FileCRC": "854b9953",
+            "FileSize": 4176,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                8,
+                9,
+                10,
+                20,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_data_animaton_controller.bundle",
+            "UnityCRC": 637927159,
+            "FileHash": "3e2eb4f461cf9116c29aacf963971779",
+            "FileCRC": "34b85129",
+            "FileSize": 6941,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7,
+                11,
+                12,
+                19
+            ]
+        },
+        {
+            "BundleName": "assets_data_effects.bundle",
+            "UnityCRC": 50235481,
+            "FileHash": "370f652097b29c80dc807390e9d781dd",
+            "FileCRC": "d08b049c",
+            "FileSize": 2243,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_data_items_weapons.bundle",
+            "UnityCRC": 822883918,
+            "FileHash": "73ee2e8617481e68c9a20d82e1054fcc",
+            "FileCRC": "186d891e",
+            "FileSize": 2176,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 3070958518,
+            "FileHash": "e9bea77a57e54c6d9c308d2a06bf6a26",
+            "FileCRC": "4716a95f",
+            "FileSize": 83425,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "UnityCRC": 1122423631,
+            "FileHash": "c1b7e2f819cc052f2c2eb5c242af02be",
+            "FileCRC": "f455db2e",
+            "FileSize": 3022,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                19
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rd_mirror_editor_icon.bundle",
+            "UnityCRC": 3679769552,
+            "FileHash": "c4afa2dada043d3e96695db8f033fabc",
+            "FileCRC": "cc6f5a17",
+            "FileSize": 1166,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor_resources_gizmos.bundle",
+            "UnityCRC": 689330812,
+            "FileHash": "4acd0ea439bf3a892d8cb930364b20fb",
+            "FileCRC": "24fdadf3",
+            "FileSize": 4048,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_3rd_textmesh_pro_resources_fonts_&_materials.bundle",
+            "UnityCRC": 3987068430,
+            "FileHash": "6d6ed895e3bb38b2d502a0bb0e557186",
+            "FileCRC": "9042bf31",
+            "FileSize": 373481,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                24,
+                19
+            ]
+        },
+        {
+            "BundleName": "share_assets_3rd_textmesh_pro_fonts.bundle",
+            "UnityCRC": 2406680048,
+            "FileHash": "1974e054b73fe877905618ef82076ef6",
+            "FileCRC": "c96e3b9f",
+            "FileSize": 227277,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

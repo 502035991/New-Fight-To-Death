@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1905431786
+CRC: 3405743247
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0e8ae7a906750e4ae9dbbe9c396c3c89
+    Hash: 764af180fb2d72d92813679bd5e13e6b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 00a543950720c505626c77e744ca79fc
@@ -17,7 +17,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- "Assets/Art/Animation/\u6218\u6597/\u4E3E\u76FE_\u540E\u8DF3.fbx"
+- "Assets/Art/Animation/\u6218\u6597/Jump_Backward.fbx"
 - "Assets/Art/Animation/\u6218\u6597/\u9632\u5FA1\u51FB\u9000_\u91CD.fbx"
 - "Assets/Art/Animation/\u6218\u6597/\u76FE\u724C\u51FB\u9000_\u5F39\u5F00.fbx"
 - "Assets/Art/Animation/\u6218\u6597/\u9632\u5FA1\u51FB\u9000_\u8F7B.fbx"

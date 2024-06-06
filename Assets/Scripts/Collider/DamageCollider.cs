@@ -44,6 +44,8 @@ public class DamageCollider : MonoBehaviour
         damageEffect.contactPoint = contactPoint;
 
         damageTarget.characterEffectManager.ProcessInstantEffect(damageEffect);
+
+        charactersDamaged.Clear();
     }
     public virtual void EnableDamageCollider()
     {

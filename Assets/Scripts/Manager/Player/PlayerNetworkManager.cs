@@ -29,7 +29,6 @@ public class PlayerNetworkManager : CharacterNetworkManager
             currentStamina = newValue;
         }
     }
-
     public override void OnStaminaChanged(float oldValue, float newValue)
     {
         if (!isOwned)
@@ -57,7 +56,7 @@ public class PlayerNetworkManager : CharacterNetworkManager
         }
     }
     [Command]
-    public override void SetCurrentHealthValue(int currentHealth)
+    public override void SetCurrentHealthValue(float currentHealth)
     {
         if (isServer)
         {
@@ -66,14 +65,14 @@ public class PlayerNetworkManager : CharacterNetworkManager
     }
     public override void OnCurrentHealthChanged(float oldValue, float newValue)
     {
-        if (isOwned)
+        if (!isOwned)
             return;
         player.characterStatsManager.ResetStaminaRegenerationTimer(oldValue, newValue);
         PlayerUIManager.instance.PlayerUIHudManager.SetNewHealthValue(oldValue, newValue);
     }
     public override void OnVitalityChange(int oldValue, int newValue)
     {
-        if (isOwned)
+        if (!isOwned)
             return;
         int maxHealthValue = player.characterStatsManager.CalculateHealthBasedOnVitalityLevel(newValue);
         PlayerUIManager.instance.PlayerUIHudManager.SetMaxHealthValue(maxHealthValue);

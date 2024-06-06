@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 841000337
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f1d00f6dffc8e84a8d87b304bd38138d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1946a347a82cfd7cd86cf2b91b495260
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Model/Free_Swords/Meshes/PP_Sword_0018_Model.fbx
+- Assets/Model/Free_Swords/Meshes/PP_Sword_0036_Model.fbx
+- Assets/Model/Free_Swords/Meshes/PP_Sword_1039_Model.fbx
+- Assets/Model/Free_Swords/Meshes/PP_Sword_0177_Model.fbx
+- Assets/Model/Free_Swords/Meshes/PP_Sword_0222_Model.fbx
+- Assets/Model/Free_Swords/Meshes/PP_Sword_0363_Model.fbx
+- Assets/Model/Free_Swords/Meshes/PP_Sword_0080_Model.fbx
+Dependencies:
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle

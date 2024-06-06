@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 881375567
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f5c378b1a479216e03440305d3bd965
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Model/Free_Swords/Materials/PP_Ground.mat
+- Assets/Model/Free_Swords/Materials/PP_Standard_Material.mat
+Dependencies:
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_model_free_swords_textures.bundle
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/unityshaders.bundle

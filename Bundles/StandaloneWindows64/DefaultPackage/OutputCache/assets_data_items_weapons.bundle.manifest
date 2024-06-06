@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 822883918
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2dc06b01ffad6a45737a319705c7bfdd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 391521098b6ff9b3ab72a0f01318681a
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: fc322f06d8a3cc341b4d3417281d86ec, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Items/Weapons/Straight Sword.asset
+Dependencies: []

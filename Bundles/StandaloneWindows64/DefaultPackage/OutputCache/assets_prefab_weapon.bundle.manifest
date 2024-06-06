@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 2065392031
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b53647f5791a756ac87430412e8b93b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a689c789584874082dc05b2269a17de8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefab/Weapon/PP_Sword_0177.prefab
+- Assets/Prefab/Weapon/PP_Sword_1039.prefab
+- Assets/Prefab/Weapon/PP_Sword_0036.prefab
+- Assets/Prefab/Weapon/PP_Sword_0222.prefab
+- Assets/Prefab/Weapon/PP_Sword_0080.prefab
+- Assets/Prefab/Weapon/PP_Sword_0018.prefab
+- Assets/Prefab/Weapon/PP_Sword_0363.prefab
+Dependencies:
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_model_free_swords_materials.bundle
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_model_free_swords_meshes.bundle

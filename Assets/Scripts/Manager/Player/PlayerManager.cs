@@ -72,13 +72,13 @@ public class PlayerManager : CharacterManager
         maxStamina = playerStatsManager.CalculateStaminaBasedOnEndurancelevel(endurance);
         maxHealth = playerStatsManager.CalculateHealthBasedOnVitalityLevel(vitality);
 
-        currentStamina = currentCharacterData.currentStamina;
-        currentHealth = currentCharacterData.currentHealth;
+        currentStamina = currentCharacterData.currentStamina <= 0 ? maxStamina : currentStamina;
+        currentHealth = currentCharacterData.currentHealth <= 0 ? maxHealth : currentHealth;
 
         PlayerUIManager.instance.PlayerUIHudManager.SetMaxStaminaValue(maxStamina);
-        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0, currentStamina <= 0 ? maxStamina : currentStamina);
+        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0, currentStamina);
 
         PlayerUIManager.instance.PlayerUIHudManager.SetMaxHealthValue(maxHealth);
-        PlayerUIManager.instance.PlayerUIHudManager.SetNewStaminaValue(0, currentHealth <= 0 ? maxHealth : currentHealth);
+        PlayerUIManager.instance.PlayerUIHudManager.SetNewHealthValue(0, currentHealth);
     }
 }

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 805224157
+CRC: 1709254379
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0889e67a59c4b5aa3435cb7895a1a9cf
+    Hash: d239c98c18713a456bf18619058eefa0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5e290fdc6c409e8b31b36df124049941
+    Hash: 0b79c217cef9bfd7eb1057b27e89004d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,33 +26,33 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 23a216f4395621b4584125cb08e21aac, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 649ad42ba0552dd419c6e229801b66da, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a553cb17010b2403e8523b558bffbc14, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 26ac0ecea7fb8bc4e85d1db244cae0ef, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23a216f4395621b4584125cb08e21aac, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: e9429d8f276dc4c4cb311ccb397f1971, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1d71cda3219cee0419054732cae27a39, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 3f7aed4a28348174e8e522078d579806, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 649ad42ba0552dd419c6e229801b66da, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9429d8f276dc4c4cb311ccb397f1971, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 137
@@ -86,6 +86,6 @@ Assets:
 - Assets/Prefab/Player.prefab
 - Assets/Prefab/Save Slot.prefab
 Dependencies:
+- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_data_animaton_controller.bundle
 - C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_model.bundle
 - C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_3rd_textmesh_pro_resources_fonts_&_materials.bundle
-- C:/Users/50203/Desktop/New-Fight-To-Death/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_animaton.bundle

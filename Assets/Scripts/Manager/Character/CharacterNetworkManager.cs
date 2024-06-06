@@ -50,9 +50,8 @@ public class CharacterNetworkManager : NetworkBehaviour
     {
     }
     [Command]
-    public virtual void SetCurrentHealthValue(int newValue)
+    public virtual void SetCurrentHealthValue(float newValue)
     {
-        endurance = newValue;
     }
     public virtual void OnVitalityChange(int oldValue, int newValue)
     {

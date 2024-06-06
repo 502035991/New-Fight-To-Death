@@ -49,7 +49,7 @@ public class TakeDamageEffect : InstantCharacterEffect
         {
             finalDmageDealt = 1;
         }
-
-        //character.characterNetworkManager.currentHealth -= finalDmageDealt;
+        character.currentHealth -= finalDmageDealt;
+        character.characterNetworkManager.SetCurrentHealthValue(character.currentHealth);
     }
 }
